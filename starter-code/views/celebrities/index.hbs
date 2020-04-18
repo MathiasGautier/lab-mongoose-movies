@@ -1,0 +1,38 @@
+<h2>CELEBRITIES</h2>
+
+<h3>Click on the celebrity to access its informations</h3>
+
+<div class="window">
+
+{{#each celebrities}}
+<div class="titles">
+
+<div>
+<a href="celebrities/{{this._id}}">
+    <p>{{this.name}}</p>
+</a>
+</div>
+
+
+    <form action="/celebrities/{{this._id}}/delete" method="POST">
+    <button>delete this star</button>
+    </form>
+
+<form action="/celebrities/{{this._id}}/edit" method="GET">
+    <button>edit this star</button>
+    </form>
+
+ </div>
+{{/each}}
+
+
+
+</div>
+
+<div>
+<a href="/celebrities/new">Add a celebrity </a>
+</div>
+
+<div>
+<a href="/">Back to home page</a>
+</div>

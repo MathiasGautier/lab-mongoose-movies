@@ -4,39 +4,35 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(0, 0, 0);
-  color: whitesmoke;
-}
+  background-color: black;
+  color: whitesmoke; }
 
 a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
+  color: black;
+  text-decoration: none; }
 
 h1,
 h2 {
-  font-size: 40px;
-}
+  font-size: 40px; }
 
 h3 {
-  font-size: 30px;
-}
+  font-size: 30px; }
+
 .index {
   font-size: 30px;
   padding: 15px;
   background-color: white;
-  width:400px;
-  text-align:center;
+  width: 400px;
+  text-align: center;
   margin: 15px;
-  border-radius: 30px;
-}
+  border-radius: 30px; }
 
 .index:hover {
   background-color: #0069ed;
-  color:white;
-}
+  color: white; }
+
 button {
-  width:200px;
+  width: 200px;
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
@@ -52,62 +48,57 @@ button {
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  margin-top:15px;
-}
+  margin-top: 15px; }
 
 button:hover,
 button:focus {
-  background: #0053ba;
-}
+  background: #0053ba; }
 
 button:focus {
   outline: 1px solid #fff;
-  outline-offset: -4px;
-}
+  outline-offset: -4px; }
 
 button:active {
-  transform: scale(0.99);
-}
+  transform: scale(0.99); }
 
 .titles {
- display:flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   height: 180px;
   align-items: center;
-  padding:20px;
-  border:2px solid white;
- justify-content: space-evenly;
-}
-.titles a{
-  font-size: 20px;
-  color:#0069ed;
-}
-.titles a:hover{
-  color:white;
-}
+  padding: 20px;
+  border: 2px solid white;
+  justify-content: space-evenly; }
 
+.titles a {
+  font-size: 20px;
+  color: #0069ed; }
+
+.titles a:hover {
+  color: white; }
 
 .window {
-  display: flex;
-}
-#add{
-  padding:70px;
-  justify-content: center;
-}
-#add a{
+  display: flex; }
+
+#add {
+  padding: 70px;
+  justify-content: center; }
+
+#add a {
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 30px;
-  color:black;
-}
-#add a:hover{
+  color: black; }
+
+#add a:hover {
   background-color: #0053ba;
-  color:white;
-}
-#back a{
-  font-size:20px;
-  color:#006df3;
-}
-#back a:hover{
-  color:white;
-}
+  color: white; }
+
+#back a {
+  font-size: 20px;
+  color: #006df3; }
+
+#back a:hover {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
